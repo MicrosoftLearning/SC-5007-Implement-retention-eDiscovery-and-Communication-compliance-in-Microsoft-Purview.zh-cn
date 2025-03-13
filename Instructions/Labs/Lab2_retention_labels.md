@@ -25,8 +25,7 @@ lab:
 在此任务中，将创建可分配给文档和电子邮件的保留标签。
 
 1. 在 Microsoft Edge 中，导航到 Microsoft Purview 门户，`https://purview.microsoft.com`，然后登录。
-1. 选择“**查看所有解决方案**”。
-1. 在“**风险与合规性**”下，选择“**记录管理**”卡。
+1. 选择“**解决方案**” > “**记录管理**”。
 1. 在左侧导航窗格中，选择“**文件计划**”。
 1. 在“**文件计划**”页上，选择“**+ 创建标签**”。
 1. 在“命名保留标签”页上输入：
@@ -48,7 +47,7 @@ lab:
 1. 在“查看并完成”页上，选择“创建标签” 。
 1. 在“**已创建保留标签**”页上选择“**不执行任何操作**”，然后选择“**完成**”。 标签稍后将发布在练习中。
 1. 返回“**文件计划**”页，选择“**+ 创建标签**”以创建另一个保留标签。
-1. 在“命名保留标签”页上输入：
+1. 在“**命名保留标签**”页上输入：
 
     - **名称**：`HR Records`
     - **** 面向用户的说明：`This label is auto-applied to HR records with a retention period of five years.`
@@ -73,9 +72,6 @@ lab:
 执行任务 1 之后，你将立即发布保留标签，以便用户可以将其应用于 Exchange 电子邮件和 SharePoint 文档中的文档。
 
 1. 你仍应位于 Microsoft Purview 门户中的“**文件计划**”页上。
-
-   如果没有，在 Microsoft Edge 中，导航到 Microsoft Purview 门户 (`https://purview.microsoft.com`)，然后登录。 选择“**查看所有解决方案**”，然后选择“**记录管理**” > “**文件计划**”。
-
 1. 选择“**财务记录**”保留标签旁边的复选标记，然后选择“**发布标签**”按钮。
 
     >![显示选择保留标签的位置和发布标签按钮的屏幕截图。](./Media/publish-labels.png)
@@ -91,7 +87,7 @@ lab:
    - OneDrive 帐户
 
 1. 确保将 Microsoft 365 组邮箱和站点设置为“**关闭**”，然后选择“**下一步**”。
-1. 在“**命名策略**”页上输入：
+1. 在“策略命名”页上输入：
 
    - 名称：`Financial Records Retention Label`
    - 说明：`Retention label for financial records with a seven-year retention period.`
@@ -105,9 +101,9 @@ lab:
 
 执行任务 1 之后，你将立即自动应用 HR 记录保留标签，以便保留信息。
 
-1. 你仍应位于 Microsoft Purview 门户的“**记录管理**”中。 
+1. 你仍应位于 Microsoft Purview 门户的“**记录管理**”中。
 
-   如果没有，在 Microsoft Edge 中，导航到 Microsoft Purview 门户，`https://purview.microsoft.com`，然后登录。 选择“**查看所有解决方案**”，然后选择“**记录管理**”。
+   如果没有，在 Microsoft Edge 中，导航到 Microsoft Purview 门户，`https://purview.microsoft.com`，然后登录。 选择“**解决方案**” > “**记录管理**”。
 
 1. 在左侧导航窗格中，展开“**策略**”，然后选择“**标签策略**”。
 1. 选择“**自动应用标签**”以启动“**创建自动标记策略**”配置。
